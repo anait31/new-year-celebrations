@@ -12,7 +12,38 @@
 
     1. Common CSS
     2. Reusable Components
+    3. Hero Section
 ================================================================*/
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Merriweather:wght@400;700;900&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    color: #07021199;
+    background-color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* =============================================================
+    2. Reusable Components
+================================================================*/
+
+
+
+
+
+/* =============================================================
+    3. Hero Section
+================================================================*/
