@@ -277,7 +277,56 @@ ing-soon-items h5 {
 }
 
 /* =============================================================
-    8. Portfolio Section
+    8. Holiday Sale Section
+================================================================*/
+.sale-intro {
+    text-align: center;
+    
+}
+.sale-intro h5 {
+    color: #070211;
+}
+.sale-intro h2 {
+    color: #F00;
+    margin: 15px 0;
+
+}
+.sale-intro span {
+    color: #000;
+}
+
+.sale-intro p {
+    color: #000;
+}
+
+.image-box {
+    position: relative;
+    margin-top: 60px;
+}
+
+.girl {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.discount {
+    position: absolute;
+    top: 10%;
+    left: 55%;
+}
+.red-shape {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+}
+.bonus-box {
+    z-index: -1;
+}
+
+/* =============================================================
+    9. Portfolio Section
 ================================================================*/
 .portfolio-info h5 {
     font-family: 'Merriweather', serif;
@@ -306,7 +355,7 @@ ing-soon-items h5 {
 }
 
 /* =============================================================
-    8. Subscribe Section
+    9. Subscribe Section
 ================================================================*/
 #subscribe .row {
     background: rgba(255, 0, 0, 0.05);
@@ -346,7 +395,7 @@ ing-soon-items h5 {
     margin-left: -5px;
 }
 /* =============================================================
-    9. Footer Section
+    10. Footer Section
 ================================================================*/
 footer {
     background-color: #070211;
