@@ -234,6 +234,7 @@ h4 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 60px;
 }
 
 ing-soon-items h5 {
@@ -257,8 +258,9 @@ ing-soon-items h5 {
 
 .coming-soon-items .celebrate {
     border-radius: 463px;
-    outline-offset: 12px;
+    outline-offset: 20px;
     outline: 10px solid red;
+    margin-left: 70px;
 
 
 }
@@ -269,7 +271,7 @@ ing-soon-items h5 {
 }
 
 .main {
-    margin-left: 70px;
+    margin-left: 120px;
 }
 
 .main img {
@@ -301,7 +303,7 @@ ing-soon-items h5 {
 
 .image-box {
     position: relative;
-    margin-top: 60px;
+    margin-top: 70px;
 }
 
 .girl {
@@ -319,10 +321,11 @@ ing-soon-items h5 {
     right: 0;
     bottom: 0;
     left: 0;
-
+    display: block;
 }
 .bonus-box {
-    z-index: -1;
+    position: relative;
+    z-index: 2;
 }
 
 /* =============================================================
@@ -355,7 +358,7 @@ ing-soon-items h5 {
 }
 
 /* =============================================================
-    9. Subscribe Section
+    10. Subscribe Section
 ================================================================*/
 #subscribe .row {
     background: rgba(255, 0, 0, 0.05);
@@ -395,7 +398,7 @@ ing-soon-items h5 {
     margin-left: -5px;
 }
 /* =============================================================
-    10. Footer Section
+    11. Footer Section
 ================================================================*/
 footer {
     background-color: #070211;
