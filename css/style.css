@@ -350,39 +350,70 @@ ing-soon-items h5 {
 ================================================================*/
 footer {
     background-color: #070211;
-    padding: 120px 0;
+    padding: 100px 0;
     margin-top: 90px;
 }
-
+.footer-row {
+    max-width: 1320px;
+    margin: auto;
+    margin-top: 30px;
+}
 .footer-container {
-    width: 1320px;
     display: flex;
     justify-content: space-between;
-}
-
-.social-icons {
-
+    
 }
 
 .footer-items h5 {
     color: #FFF;
+    font-size: 20px;
     line-height: 35px;
     font-weight: 400;
 }
 
+.footer-items img {
+    margin: 0 10px -5px 0;
+    display:inline-block;
+}
+
+.footer-container .footer-info {
+    margin-right: 90px;
+}
+
+
+.social-icons {
+    width: 100px;
+    margin: auto;
+    margin-top: 60px;
+}
 .social-icons ul {
     display: flex;
 }
 .social-icons li {
     list-style: none;
-}
-
-.social-icons li {
-    list-style: none;
-}
-
-.social-icons li a {
     margin-right: 15px;
-    display: inline-block;
- 
+}
+
+.social-icons li img {
+    width: 45px;
+    height: 45px;
+}
+.reserved-container {
+    display: flex;
+}
+
+.footer-reserved {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.footer-reserverd-items h6 {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.unsubscribe a {
+    color: #FFF;
+
 }
