@@ -18,6 +18,7 @@
     6. Event Info
     7. Coming Soon Section
     8. Portfolio Section
+    9. Footer Section
 ================================================================*/
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Merriweather:wght@400;700;900&display=swap');
@@ -344,4 +345,44 @@ ing-soon-items h5 {
     font-weight: 600;
     margin-left: -5px;
 }
+/* =============================================================
+    9. Footer Section
+================================================================*/
+footer {
+    background-color: #070211;
+    padding: 120px 0;
+    margin-top: 90px;
+}
 
+.footer-container {
+    width: 1320px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-icons {
+
+}
+
+.footer-items h5 {
+    color: #FFF;
+    line-height: 35px;
+    font-weight: 400;
+}
+
+.social-icons ul {
+    display: flex;
+}
+.social-icons li {
+    list-style: none;
+}
+
+.social-icons li {
+    list-style: none;
+}
+
+.social-icons li a {
+    margin-right: 15px;
+    display: inline-block;
+ 
+}
